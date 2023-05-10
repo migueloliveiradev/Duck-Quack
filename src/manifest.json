@@ -1,0 +1,42 @@
+{
+    "name": "Duck Quack",
+    "description": "A mod to quack every time you type something",
+    "developer":
+    {
+        "name": "Miguel Oliveira"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "payload":
+        {
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/duck-quack.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/duck-quack.wav"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/duck-quack.wav",
+                    "keyboard/duck-quack.wav",
+                    "keyboard/duck-quack.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/duck-quack.wav"
+                ]
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
